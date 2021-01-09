@@ -77,6 +77,7 @@ struct ContentView: View {
                 viewModel.removeLast()
             }
         }
+        .frame(width: 200, height: 300)
     }
 }
 
